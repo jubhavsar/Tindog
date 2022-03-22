@@ -1,7 +1,8 @@
 body {
-  font-family: "Montserrat";
+  font-family: 'Andada Pro';
 }
-
+/* font-family: 'Andada Pro', serif;
+font-family: 'Merriweather', serif; */
 #title {
   background-color: #ff4c68;
   color: white;
@@ -11,10 +12,17 @@ body {
 }
 
 #heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Andada Pro';
   font-size: 5rem;
   font-weight: 900;
   line-height: 1.5;
+}
+
+h2 {
+  font-family:'Hahmlet', serif;;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 h3 {
@@ -33,7 +41,7 @@ p {
 .navbar-brand {
   font-size: 2.5rem;
   font-weight: bold;
-  font-family: "Ubuntu";
+  font-family: "Andada Pro";
 }
 
 .nav-item {
@@ -41,7 +49,7 @@ p {
 }
 .nav-link {
   font-size: 1.5rem;
-  font-family: "Montserrat";
+  font-family: "Andada Pro";
 }
 
 /* Download-Buttons */
@@ -71,4 +79,27 @@ p {
 .icon:hover {
   color: #ff4c68;
 }
+/* Testimonial-Section */
 
+#testimonials {
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+.testinomial-image {
+  width: 10%;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+/* Press-Section */
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding: 3%;
+}
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
