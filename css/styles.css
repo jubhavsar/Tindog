@@ -83,14 +83,16 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  padding: 7% 15%;
   text-align: center;
   color: #fff;
 }
-.testinomial-image {
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   padding: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
 }
 
 /* Press-Section */
