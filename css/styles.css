@@ -15,7 +15,14 @@ body {
   font-size: 5rem;
   font-weight: 900;
   line-height: 1.5;
-  
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
 }
 
 /* Navigation-Bar */
@@ -46,5 +53,22 @@ body {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Feature-Section */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
 }
 
