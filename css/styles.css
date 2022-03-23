@@ -1,39 +1,42 @@
 body {
-  font-family: 'Andada Pro';
+  font-family: "Andada Pro";
+  text-align: center;
 }
-/* font-family: 'Andada Pro', serif;
-font-family: 'Merriweather', serif; */
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-.container-fluid {
-  padding: 3% 15% 7%;
+h1, h2, h3, h4 {
+  font-family: "Hahmlet", serif;
 }
 
-#heading {
-  font-family: 'Andada Pro';
-  font-size: 5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family:'Hahmlet', serif;
-  line-height: 1.5;
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-h3 {
-  font-family:'Hahmlet', serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 p {
   color: #8f8f8f;
 }
 
+/* Heading-Section */
+
+.big-heading {
+  font-family: "Andada Pro";
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section {
+  background-color: #fff;
+}
 /* Navigation-Bar */
 .navbar {
   padding: 0 0 4.5rem;
@@ -59,27 +62,33 @@ p {
 }
 
 /* Title-Image */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  position: absolute; 
+  position: absolute;
   right: 30%;
 }
 
 /* Feature-Section */
 #features {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
   z-index: 1;
-
 }
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .position {
   position: relative;
 }
 
 .feature-box {
-  text-align: center;
+
   padding: 4.5%;
 }
 .icon {
@@ -93,21 +102,20 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  text-align: center;
-  color: #fff;
 }
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
   padding: 20px;
 }
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
+
 
 /* Press-Section */
 #press {
-  text-align: center;
   background-color: #ef8172;
   padding: 3%;
 }
@@ -119,29 +127,16 @@ p {
 /* Pricing-Section */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 .pricing-column {
   padding: 3% 2%;
 }
-/* Call-To-Action-Section */
-#cta {
-  background-color: #ff4c68;
-  color: white;
-  padding: 7% 15%;
-  text-align: center;
-}
-.cta-heading {
-  font-family: 'Andada Pro';
-  font-size: 3.5rem;
-  font-weight: 900;
+.pricing-text {
+  font-size: 3rem;
   line-height: 1.5;
 }
+
 /* Footer-Section */
-#footer {
-  text-align: center;
-  padding: 7% 15%;
-}
 .social-icon {
   margin: 20px 10px;
 }
