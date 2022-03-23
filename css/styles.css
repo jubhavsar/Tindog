@@ -19,13 +19,14 @@ font-family: 'Merriweather', serif; */
 }
 
 h2 {
-  font-family:'Hahmlet', serif;;
+  font-family:'Hahmlet', serif;
   line-height: 1.5;
   font-size: 3rem;
   font-weight: 700;
 }
 
 h3 {
+  font-family:'Hahmlet', serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -123,7 +124,27 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
-
+/* Call-To-Action-Section */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading {
+  font-family: 'Andada Pro';
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+/* Footer-Section */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+.social-icon {
+  margin: 20px 10px;
+}
 /* responsive */
 @media (max-width: 1028px) {
   #title {
